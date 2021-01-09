@@ -1,0 +1,27 @@
+{
+  "name": "jikanjs",
+  "version": "0.7.0",
+  "description": "A small Wrapper for the unofficial MAL API jikan.me",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha",
+    "snyk-test": "./node_modules/.bin/snyk test",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zuritor/jikanjs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cross-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.1.1",
+    "snyk": "^1.119.0"
+  }
+}

@@ -1,0 +1,22 @@
+.anime-progress {
+  text-align: right;
+}
+
+.anime-title {
+  text-align: left;
+}
+
+.anime-type {
+  text-align: center;
+}
+
+.anime-title, .anime-progress, .anime-type {
+  padding-right: 10px !important;
+  padding-bottom: 5px !important;
+  vertical-align: top;
+  line-height: 100%;
+  font-size: 20px;
+  border-radius: 4px;
+  color: #ffffff;
+  margin: 2px;
+}
