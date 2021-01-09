@@ -1,6 +1,8 @@
 # MMM-MALList
 A [MagicMirror²](https://magicmirror.builders/) module helper that shows the currently watching anime & currently reading manga of an account at [MyAnimeList](https://myanimelist.net/).
 
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://raw.githubusercontent.com/NikosNtigas/MMM-MALList/master/LICENSE)
+
 ![Example](.github/AnimeMangaList.png)
 
 ## Installation
