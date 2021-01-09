@@ -4,8 +4,6 @@ Module.register("MMM-MALList",
 		mangaList: null,
 		defaults: {
 			position: "top_right",
-			refreshInterval: 0,
-			updateInterval: 60000,
 			username: "AlchemistKng",
 			showAnimeList: true,
 			numOfAnime: Infinity,
@@ -14,6 +12,7 @@ Module.register("MMM-MALList",
 			showTitle: true,
 			showType: true,
 			showProgress: true,
+			updateInterval: 60000,
 		},
 
 		start: function () {
