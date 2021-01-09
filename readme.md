@@ -39,7 +39,7 @@ Add the module to the modules array in the `config/config.js` file:
 | `showTitle`                   | Show the title of anime / manga list <br><br> **OPTIONAL** <br> **Possible values:** `false` or `true` <br> **Default value:** `true`
 | `showType`                    | Show the type of anime / manga <br><br> **OPTIONAL** <br> **Possible values:** `false` or `true` <br> **Default value:** `true`
 | `showProgress`                | Show the progress (watched / total) of anime / manga <br><br> **OPTIONAL** <br> **Possible values:** `false` or `true` <br> **Default value:** `true`
-| `updateInterval`              | The time that the content update itself (Milliseconds) <br><br> **Possible values:** `1000` - `86400000` <br> **Default value:** `60000` (1 minute)
+| `updateInterval`              | The time that the content update itself (Milliseconds) <br><br> **OPTIONAL** <br> **Possible values:** `1000` - `86400000` <br> **Default value:** `60000` (1 minute)
 
 ## Config Example
 ````javascript
