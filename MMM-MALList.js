@@ -45,7 +45,7 @@ Module.register("MMM-MALList",
 		},
 
 		getHeader: function () {
-			if (this.config.showAnimeList === true && this.config.mangaList === true)
+			if (this.config.showAnimeList === true && this.config.showMangaList === true)
 				return this.config.username + ' currently watching/reading'
 			if (this.config.showAnimeList === true)
 				return this.config.username + ' currently watching'
